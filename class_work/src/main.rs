@@ -1,7 +1,7 @@
 
 fn isAdult(age:u8) -> String {
     
-    match age > 18 {
+    match age > 21 {
         true => "Adult".to_string(),
         false => "Kid".to_string(),
     }
